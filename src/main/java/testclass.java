@@ -10,7 +10,7 @@ public class testclass {
 //        System.out.println("Please, enter web site url");
 //        Scanner readFromClientTerminal = new Scanner(System.in);
 //        String webSite = readFromClientTerminal.nextLine();
-
+// comment
         System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.google.com");
